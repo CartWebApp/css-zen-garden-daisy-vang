@@ -1,1 +1,9 @@
-/* Empty file for template. Remember to edit only this file and not the HTML file */
+* { margin: 0;
+    padding: 0;
+    background-color: #f6f3ea;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+}
