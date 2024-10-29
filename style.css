@@ -1,9 +1,21 @@
 * { margin: 0;
     padding: 0;
-    background-color: #f6f3ea;
+    color: black;
 }
 
 .body {
     width: 100%;
     height: 100%;
+    background-color: #8ca58b;
+}
+
+.page-wrapper {
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    background: #f6f3ea;
+}
+
+.intro {
+
 }
