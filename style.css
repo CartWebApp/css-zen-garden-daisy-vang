@@ -1,21 +1,41 @@
-* { margin: 0;
-    padding: 0;
-    color: black;
+* { margin: 0%;
+    padding: 0%;
 }
 
 .body {
     width: 100%;
     height: 100%;
-    background-color: #8ca58b;
+    text-align: center;
 }
 
 .page-wrapper {
-    width: 50%;
+    text-align: left;
+    width: 60%;
     margin: auto;
     padding: 0;
     background: #f6f3ea;
 }
 
-.intro {
+a {
+    color: #ffffff;
+}
 
+a:hover {
+    color: #adcfaf;
+}
+
+header {
+    width: 100%;
+    height: 5em;
+    background: #adcfaf;
+    padding-top: 5%;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    background: #6d8371;
+    color: white;
+    height: 100%;
+    width: 20%;
 }
