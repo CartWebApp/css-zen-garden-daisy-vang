@@ -1,6 +1,11 @@
 body {
-    margin: 0; padding: 0; text-align: center;
-    color: #000; background: #FFF;
+    display: flex;
+    justify-content: center;
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+    color: #000; background: #f6f3ea;
+    border-color: #d5d4c8;
 }
 
 abbr {
@@ -12,7 +17,7 @@ a {
 }
 
 a:link {
-    color: #cdf8ff;
+    color: #6d8371;
 }
 
 a:hover {
@@ -26,13 +31,12 @@ a:hover {
 }
   
 header {
-    background: url(flower-image-1.jpg) 0 0 no-repeat;
+    background-image: url(flower-image-1.jpg) 0 0 no-repeat;
     height: 157px; width: auto; position: relative; z-index: 10;
-    color: #8ca58b;
 }
 
 header h1 {
-    background: url(bdf7ac95505535.5e98c70b17401-removebg-preview.png) 0 0 no-repeat;
+    background-image: url(bdf7ac95505535.5e98c70b17401-removebg-preview.png) 0 0 no-repeat;
     height: 330px; width: 250px; position: absolute; z-index: 101;
     top: -95px; right: -80px; margin: 0;
 }
@@ -102,7 +106,7 @@ header abbr {
 }
   
 footer {
-    background: #FFF url(footer.jpg) 0 1px no-repeat;
+    background: #8ca58b;
     margin: 0 -217px 0 4px; height: 123px;
     padding: 60px 1em 0 0.5em;
 }
@@ -112,12 +116,15 @@ html>body footer {
 }
 
 footer a:link, footer a:visited {
-    color: rgb(207,216,214); line-height: 1em;
+    color: white; 
+    line-height: 1em;
     font-size: 1.25em; font-weight: 100;
 }
   
 .design-name{
     width: 216px; top: 157px; right: 0;
+    display: flex;
+    justify-content: center;
     margin-top: 8.6em;
 }
 
@@ -126,6 +133,8 @@ footer a:link, footer a:visited {
     width: 216px; top: 157px; right: 0;
     margin-top: 8.6em;
     background-color: #6d8371;
+    display: flex;
+    justify-content: center;
 }
 
 .sidebar a {
