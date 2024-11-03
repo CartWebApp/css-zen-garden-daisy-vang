@@ -40,18 +40,18 @@ a[role] {
 }
   
 header {
-    background-image: url(flower-image-1.jpg) 0 0 no-repeat;
+    background: url(flower-image-1.jpg) 0 0 no-repeat;
     height: 157px; width: auto; position: relative; z-index: 10;
 }
 
 header h1 {
-    background-image: url(bdf7ac95505535.5e98c70b17401-removebg-preview.png) 0 0 no-repeat;
+    background: url(bdf7ac95505535.5e98c70b17401-removebg-preview.png) 0 0 no-repeat;
     height: 330px; width: 250px; position: absolute; z-index: 101;
     top: -95px; right: -80px; margin: 0;
 }
 
   html>body header h1 {
-    background-image: url(bdf7ac95505535.5e98c70b17401-removebg-preview.png);
+    background: url(bdf7ac95505535.5e98c70b17401-removebg-preview.png);
 }
   
   
