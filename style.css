@@ -1,8 +1,13 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 body {
     display: flex;
     justify-content: center;
-    margin: 0; 
-    padding: 0; 
+    margin: 0%;
+    padding: 0%; 
     text-align: center;
     color: #000; background: #f6f3ea;
     border-color: #d5d4c8;
@@ -23,6 +28,10 @@ a:link {
 a:hover {
     color: #526f73;
     text-decoration: underline;
+}
+
+a[role] {
+    background-color: white;
 }
   
 .page-wrapper {
@@ -63,6 +72,14 @@ header h2 {
 header abbr {
     text-transform: uppercase;
 }
+
+div + header {
+    border-style: solid;
+}
+
+p~ul {
+    background-color: white;
+}
   
 .summary {
     font: italic 1em/2 Times, "Times New Roman", serif;
@@ -75,22 +92,32 @@ header abbr {
     display: inline;
 }
   
+#zen-preamble, #zen-supporting, #zen-participation, #zen-benefits, #zen-requirements {
+    background-color: white;
+    margin: 1%;
+    padding: 1%;
+}
+
 .preamble, .supporting {
     padding-right: 217px;
 }
    
 .preamble, .explanation, .participation, .benefits, .requirements {
     border-left: 1px solid #d5d4c8;
-    padding-top: 1px; padding-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .preamble {
-    border-top: 1px solid #d5d4c8; padding-top: 0.5em;
+    border-top: 1px solid #d5d4c8; 
+    padding-top: 0.5em;
 }
   
 .preamble p, .supporting p {
-    font-size: 90%; line-height: 1.66em;
-    margin: 0 1.5em; padding: 0.5em 0;
+    font-size: 90%; 
+    line-height: 1.66em;
+    margin: 0 1.5em; 
+    padding: 0.5em 0;
 }
 
 .preamble h3, .supporting h3 {
@@ -101,7 +128,8 @@ header abbr {
 }
 
 .requirements {
-    border-bottom: 1px solid rgb(184,214,194); padding-bottom: 100px;
+    border-bottom: 1px solid rgb(184,214,194); 
+    padding-bottom: 100px;
     background: url(main.jpg) 0 100% no-repeat;
 }
   
@@ -150,19 +178,6 @@ footer a:link, footer a:visited {
 .sidebar li {
     list-style: none;
 }
-  
-.sidebar h3 {
-    margin: 1em 0 0; width: 216px; height: 35px;
-    background: url(resources.gif) 10px 50% no-repeat;
-}
-
-.design-selection h3 {
-    background-image: url(design-list.gif);
-}
-
-.design-archives h3 {
-    background-image: url(archives.gif);
-}
 
 .sidebar h3 {
     text-indent: 100%;
@@ -177,13 +192,15 @@ footer a:link, footer a:visited {
 .design-selection li a {
     display: block;
     font: bold italic 1.15em Times, serif;
-    letter-spacing: 0.2em; text-transform: lowercase;
+    letter-spacing: 0.2em; 
+    text-transform: lowercase;
 }
 
 .design-selection li a.designer-name {
     display: inline;
     font: bold 1em Times, serif;
-    letter-spacing: 0; text-transform: none;
+    letter-spacing: 0; 
+    text-transform: none;
 }
 
 .design-archives li, .zen-resources li {
