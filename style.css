@@ -9,8 +9,21 @@ body {
     margin: 0%;
     padding: 0%; 
     text-align: center;
-    color: #000; background: #f6f3ea;
+    color: black; background: #f6f3ea;
     border-color: #d5d4c8;
+}
+
+input:focus {
+    background-color: white;
+}
+
+:root {
+    background-color: #f6f3ea;
+}
+
+::selection {
+    color: black;
+    background: #adcfaf;
 }
 
 abbr {
@@ -30,10 +43,42 @@ a:hover {
     text-decoration: underline;
 }
 
+a:active {
+    background-color: white;
+}
+
+a:visited {
+    color: #2a4436;
+}
+
 a[role] {
     background-color: white;
 }
-  
+
+p:nth-child(2), p:nth-last-child(2), p:nth-last-of-type(3), p:nth-of-type(2) {
+    color: #111e17;
+}
+
+:not(h1) {
+    color: black;
+}
+
+p:first-child, p:last-child, p:only-child {
+    color: black;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+p::first-line {
+    margin: 1.2%;
+}
+
+p:first-of-type, p:last-of-type, p:only-of-type {
+    color: #6d8371;
+}
+
 .page-wrapper {
     width: 647px; margin: 75px auto 0; padding: 0;
     position: relative; text-align: left;
@@ -149,7 +194,7 @@ footer a:link, footer a:visited {
     font-size: 1.25em; font-weight: 100;
 }
   
-.design-name{
+.design-name {
     width: 216px; top: 157px; right: 0;
     display: flex;
     justify-content: center;
@@ -210,3 +255,41 @@ footer a:link, footer a:visited {
 .design-archives li a, .zen-resources li a {
     color: rgb(126,164,139);
 }
+
+a[class="design-name"] {
+    color: #2a4436;
+}
+
+[class="design-name"] {
+    border: 1%;
+    border-color: #6d8371;
+}
+
+[lang|en] {
+    color: black;
+}
+
+div[class^="extra"] {
+    color: white;
+}
+
+div[class$="extra"] {
+    background-color: #6d8371;
+}
+
+div[class*="extra"] {
+    background: white;
+}
+
+p::after {
+    content: "Keep this in mind";
+}
+
+p::before {
+    content: "With CSS Zen Garden."
+}
+
+extra4:empty {
+    background-color: white;
+}
+
